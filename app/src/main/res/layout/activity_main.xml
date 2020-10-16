@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <Gallery
+        android:layout_weight="0.1"
+        android:id="@+id/gv_images"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:spacing="2dp"
+        />
+ <ImageView
+     android:layout_weight="0.8"
+     android:id="@+id/fullimg"
+     android:layout_margin="5dp"
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:src="@drawable/img1"/>
+    <Button
+        android:id="@+id/btn_set_wall"
+        android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Set WallPaper"/>
+</LinearLayout>
